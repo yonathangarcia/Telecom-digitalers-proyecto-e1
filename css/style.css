@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+h3 {
+  font-weight: bolder;
+}
 .logo {
   width: 50px;
 }
@@ -57,9 +60,59 @@
   display: flex;
   justify-content: space-evenly;
   margin: 2em;
+  margin-bottom: -1em;
 }
 .planes {
   padding: 5em;
   background-color: rgba(0, 255, 255, 0.322);
   margin: 30px;
+}
+.contacto-img {
+  width: 100%;
+  height: 500px;
+}
+.novedades {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.suscribite {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+.form-index-1 {
+  text-align: center;
+}
+.form-index {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+  width: 55%;
+}
+.btn-contacto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border: 2px #000000 solid;
+  border-radius: 12px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(116, 172, 167);
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  align-items: center;
+}
+.footer-redes {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.redes {
+  width: 25px;
 }
