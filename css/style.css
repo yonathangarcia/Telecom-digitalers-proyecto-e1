@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+.logo {
+  width: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(116, 172, 167);
+  align-items: center;
+}
+.buttons-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 25em;
+  margin-right: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+.button-nav {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.portada {
+  width: 100%;
+  height: 500px;
+}
+.titulo-portada {
+  text-shadow: #ffffff 0px 0px 30px, #ffffff 0px 0px 20px, #ffffff 0px 0px 10px;
+  position: absolute;
+  transform: translate(16%, -600%);
+  color: #000000;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+.titulo-intro {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+.productos-section {
+  background-color: rgb(116, 172, 167);
+  font-family: "Montserrat", sans-serif;
+}
+.titulo-opciones {
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+.productos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+.planes {
+  padding: 5em;
+  background-color: rgba(0, 255, 255, 0.322);
+  margin: 30px;
+}
