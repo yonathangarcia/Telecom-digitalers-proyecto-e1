@@ -116,3 +116,20 @@ h3 {
 .redes {
   width: 25px;
 }
+
+.contacto-page {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  height: 500px;
+  align-items: center;
+}
+.dejanos-datos {
+  align-items: center;
+  text-align: center;
+  width: 40%;
+}
+.general {
+  font-family: "Montserrat", sans-serif;
+  padding: 5%;
+}
